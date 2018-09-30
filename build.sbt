@@ -1,4 +1,7 @@
 import AssemblyKeys._
+import NativePackagerHelper._
+
+enablePlugins(JavaAppPackaging, DockerPlugin)
 
 assemblySettings
 
