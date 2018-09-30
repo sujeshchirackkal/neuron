@@ -1,0 +1,1 @@
+curl --header "Content-Type: application/json" --request POST --data '{"jobId": 2,"jobName": "Job 2","jobDescription": "Second Job depending on 1","scheduleType": "Type2","scheduleTime": 150000002, "appId":1,"jobSteps": [{"stepNo": 1,"stepType": "Java","stepDescription": "First Step","sql": ""}],"dependentJobIds": [1]}' http://localhost:8083/neuronapi/job
